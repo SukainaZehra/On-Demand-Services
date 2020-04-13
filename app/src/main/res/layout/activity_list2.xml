@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimaryDark"
+        app:title="Mechanic"
+        app:titleTextColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_gravity="top"></android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="79dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/black"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="50dip"
+                android:layout_height="56dp"
+                android:src="@drawable/mch" />
+
+        </LinearLayout>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="183dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/thumbnail"
+            android:text="Saad Butt"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="73dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="137dp"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:text="Teaches In Excellence Coaching Center"
+            android:textColor="#808080"
+            android:textSize="12dip" />
+
+        <!-- Rightend Duration -->
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="37dp"
+            android:gravity="right"
+            android:text="PKR 2500"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="347dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/black"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/id4"
+                android:layout_width="50dip"
+                android:layout_height="56dp"
+                android:src="@drawable/mch" />
+
+        </LinearLayout>
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="183dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/thumbnail2"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/thumbnail2"
+            android:text="Momin Panhawar"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/artist2"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/title2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="161dp"
+            android:text="Teaches Class 9 and matric"
+            android:textColor="#808080"
+            android:textSize="12dip" />
+
+        <!-- Rightend Duration -->
+        <TextView
+            android:id="@+id/duration2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title2"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="37dp"
+            android:gravity="right"
+            android:text="PKR 5000"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="257dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/black"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/list_image4"
+                android:layout_width="50dip"
+                android:layout_height="56dp"
+                android:src="@drawable/mch" />
+
+        </LinearLayout>
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="183dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/thumbnail4"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/thumbnail4"
+            android:text="Faizan Rehman"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/artist4"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/title4"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="161dp"
+            android:text="Serving Since 2005"
+            android:textColor="#808080"
+            android:textSize="12dip" />
+
+        <!-- Rightend Duration -->
+        <TextView
+            android:id="@+id/duration4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title4"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="37dp"
+            android:gravity="right"
+            android:text="PKR 8000"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="441dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/black"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/list_image6"
+                android:layout_width="50dip"
+                android:layout_height="56dp"
+                android:src="@drawable/mch" />
+
+        </LinearLayout>
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="183dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/thumbnail6"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/thumbnail6"
+            android:text="Saim Siddiuqqui"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/artist6"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/title6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="161dp"
+            android:text="Teaches in PECHS College"
+            android:textColor="#808080"
+            android:textSize="12dip" />
+
+        <!-- Rightend Duration -->
+        <TextView
+            android:id="@+id/duration6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title6"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="37dp"
+            android:gravity="right"
+            android:text="PKR 6000"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="169dp"
+        android:background="#D3D3D3"
+        android:orientation="horizontal"
+        android:padding="5dip">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout
+            android:id="@+id/thumbnail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dip"
+            android:background="@android:color/black"
+            android:padding="3dip">
+
+            <ImageView
+                android:id="@+id/list_image1"
+                android:layout_width="50dip"
+                android:layout_height="56dp"
+                android:src="@drawable/mch" />
+
+        </LinearLayout>
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="183dp"
+            android:layout_height="32dp"
+            android:layout_alignTop="@+id/thumbnail1"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/thumbnail1"
+            android:text="Haseeb Kardar"
+            android:textColor="@android:color/black"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <!-- Artist Name -->
+        <TextView
+            android:id="@+id/artist1"
+            android:layout_width="179dp"
+            android:layout_height="31dp"
+            android:layout_below="@id/title1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="161dp"
+            android:text="Teaches In Meritorious Center"
+            android:textColor="#808080"
+            android:textSize="12dip" />
+
+        <!-- Rightend Duration -->
+        <TextView
+            android:id="@+id/duration1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/title1"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="37dp"
+            android:gravity="right"
+            android:text="PKR 2500"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <!-- Rightend Arrow -->
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="529dp"
+        android:text="Proceed" />
+</RelativeLayout>

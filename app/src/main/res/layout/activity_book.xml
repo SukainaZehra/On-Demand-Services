@@ -1,0 +1,218 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/Textviewtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="42dp"
+        android:background="#8B0000"
+        tools:context=".TestActivity" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/Textviewtitle"
+        android:layout_alignLeft="@+id/Textviewtitle"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:text="  Provider "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Charge/Month "
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Booking Date"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  Booking Time"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Textview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:text="Abdullah Haroon"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:paddingRight="20dp"
+                android:text="PkR 500"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:paddingRight="20dp"
+                android:text="4-Feb-2019"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                tools:context=".ActivityBook" />
+
+            <TextView
+                android:id="@+id/Textview60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="20dp"
+                android:text="Now"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                android:background="@android:color/white"
+                tools:context=".ActivityBook" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/spacempty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="223dp"
+        android:background="#8B0000"
+        tools:context=".ActivityBook" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/spacempty"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/instr"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="Add Special Instruction for provider below:"
+            android:textColor="#8B0000"
+            android:background="@android:color/white"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cmnt"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="282dp"
+        android:background="@android:color/white"
+        tools:context=".ActivityBook" />
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="46dp"
+        android:background="#8B0000"
+        android:text="Confirm Booking"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

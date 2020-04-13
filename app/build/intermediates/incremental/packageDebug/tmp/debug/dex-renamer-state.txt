@@ -1,0 +1,4 @@
+#Wed Apr 08 22:11:48 PKT 2020
+base.0=C\:\\Users\\SD\\AndroidStudioProjects\\AndroidUberClone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

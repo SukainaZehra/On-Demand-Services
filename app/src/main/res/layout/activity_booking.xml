@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimaryDark"
+        app:title="Choose Time For Service"
+        app:titleTextColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_gravity="top"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp">
+
+
+        <TextView
+            android:id="@+id/currentTime"
+            android:layout_width="187dp"
+            android:layout_height="65dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="5dp"
+            android:text="Current Time:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="179dp"
+            android:layout_height="65dp"
+            android:paddingRight="98dp"
+            android:text="Current Time"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:textColor="@android:color/white" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+         />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="424dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:headerBackground="@android:color/transparent"
+        android:paddingTop="5dp">
+
+    </TimePicker>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="0dp">
+
+
+        <Button
+            android:id="@+id/subButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#8B0000"
+            android:text="Continue"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</LinearLayout>
